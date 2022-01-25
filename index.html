@@ -5,15 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Batman Small</h1>
+        <h1 class="darkSalmon">Batman Small</h1>
+        <div id="centerImage">
         <img
             src="https://bbts1.azureedge.net/images/p/full/2020/09/2aab6d4d-51a6-475c-bc9e-358d6403e146.jpg"
             alt="batman profile pic alt"
             width="100"
         />
-        <h3>Biography</h3>
+        </div>
+        <h3 class="darkSalmon">Biography</h3>
         <p>Real Name: Bruce Wayne</p>
         <p>Age: 25</p>
         <h3>Friends</h3>
@@ -29,17 +32,17 @@
         <table>
             <tr>
                 <th>Title</th>
-                <th>Year</th>
+                <th class="widen">Year</th>
                 <th>Rating</th>
             </tr>
             <tr>
                 <td>Batman</td>
-                <td>1999</td>
+                <td class="widen">1999</td>
                 <td>R</td>
             </tr>
             <tr>
-                <td>The Dark Knight</td>
-                <td>2009</td>
+                <td><a href="https://www.imdb.com/title/tt1345836/" target="blank">Dark Knight Rises</a></td>
+                <td class="widen">2009</td>
                 <td>PG13</td>
             </tr>
         </table>
@@ -64,7 +67,7 @@
                 <label for="yes">Yes</label>
                 <input type="radio" name="question" value="yes" />
                 <label for="no">No</label>
-                <input type="radio" name="question" value"no">
+                <input type="radio" name="question" value="no">
             </div>
         </div>
         <div>
@@ -78,7 +81,7 @@
                 <option value="Poison Ivy">Poison Ivy</option>
             </select>
         </div>
-        <input type="submit" value="Submit" />
+        <input id="Submit" type="submit" value="Submit" />
         <h1>Batman Friends</h1>
         <img
             src="./71tu4gSG-4L._AC_SL1500_.jpg"

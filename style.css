@@ -1,0 +1,41 @@
+body {
+    background-color: salmon;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#centerImage {
+    text-align: center;
+}
+
+.darkSalmon {
+    background-color: coral;
+    padding: 10px;
+}
+
+th,td {
+    border-style: solid;
+    padding: 3px;
+}
+
+.widen {
+    width: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#Submit{
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
